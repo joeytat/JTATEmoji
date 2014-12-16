@@ -17,7 +17,7 @@ self.myTextView.attributedText = [NSAttributedString emojiAttributedString:norma
     
 ```
 
-### How to add new images
+### Add more images
 Emoji.plist is a dictionary. Key is the description of emoji placeholder. Value is image file name. You can replace whatever you want.   
 
-if your file name doesn't refer to ```\\[[A-Za-z0-9]*\\]```, you should modify regular expression in ```NSAttributedString+JTATEmoji.m```
+If your file name doesn't refer to ```\\[[A-Za-z0-9]*\\]```, you should modify regular expression in ```NSAttributedString+JTATEmoji.m```
