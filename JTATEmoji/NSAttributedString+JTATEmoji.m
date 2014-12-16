@@ -1,6 +1,6 @@
 //
 //  NSAttributedString+JTATEmoji.m
-//  Example
+//  JTATEmoji
 //
 //  Created by Joey on 12/16/14.
 //  Copyright (c) 2014 Joeytat. All rights reserved.
@@ -24,7 +24,7 @@
         NSDictionary *emojiPlistDic = [[NSDictionary alloc]initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Emoji" ofType:@"plist"]];
         
         // Make emoji the same size as text
-        __block CGSize emojiSize = CGSizeMake(font.lineHeight, font.lineHeight);
+        CGSize emojiSize = CGSizeMake(font.lineHeight, font.lineHeight);
         
         for (NSTextCheckingResult* result in [matches reverseObjectEnumerator]) {
             NSRange matchRange = [result range];

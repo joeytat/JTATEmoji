@@ -1,6 +1,6 @@
 //
 //  NSAttributedString+JTATEmoji.h
-//  Example
+//  JTATEmoji
 //
 //  Created by Joey on 12/16/14.
 //  Copyright (c) 2014 Joeytat. All rights reserved.
