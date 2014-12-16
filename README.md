@@ -17,6 +17,11 @@ self.myTextView.attributedText = [NSAttributedString emojiAttributedString:norma
     
 ```
 
+### Calculate string size after converted
+```
+[myTextView sizeThatFits:CGSizeMake(width, CGFLOAT_MAX)].height
+```
+
 ### Add more images
 Emoji.plist is a dictionary. Key is the description of emoji placeholder. Value is image file name. You can replace whatever you want.   
 
