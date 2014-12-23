@@ -3,7 +3,7 @@ JTATEmoji
 ## 简介
 此扩展可以将文件占位符转换为表情显示  
 
-如 [kiss] 和 [hug] 显示为下图效果
+如 [kiss] 和 [hug] 显示为下图效果  
 ![](http://i.gyazo.com/994bca6b90f0df664b635b2e2a35f99b.png)
 
 ## 使用
