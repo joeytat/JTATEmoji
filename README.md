@@ -3,7 +3,7 @@ JTATEmoji
 ## What is this?
 This category allows you to convert file placeholder into given image like emoji.
 
-[kiss] and [hug] will be look like this
+[kiss] and [hug] will be look like this  
 ![](http://i.gyazo.com/994bca6b90f0df664b635b2e2a35f99b.png)
 
 ## Usage
