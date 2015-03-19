@@ -20,8 +20,6 @@
     // Do any additional setup after loading the view, typically from a nib.
     NSString *normalStr = @"This category allows you to convert string into given image like this [kiss] and this [hug]";
     self.myTextView.attributedText = [NSAttributedString emojiAttributedString:normalStr withFont:_myTextView.font];
-    
-    
 }
 
 - (void)didReceiveMemoryWarning {
